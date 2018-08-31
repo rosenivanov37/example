@@ -1,0 +1,62 @@
+$bg-color: white;
+$padding-links: 0 20px 0 10px;
+
+body {
+    background: #f1f4f9;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: #414a51;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: $bg-color;
+    background: #0099cc;
+    min-height: 120px;
+    .logo {
+        flex: 1;
+        text-align: center;
+    }
+    .nav {
+        flex: 2;
+        flex-grow: 2;
+        ul {
+            display: flex;
+            li {
+                padding: $padding-links;
+                a {
+                    color: $bg-color;
+                }
+            }
+        }
+
+    }
+    .ct-connect {
+        display: flex;
+        li {
+            padding: $padding-links;
+
+            font-size: 30px;
+            list-style: none;
+            a {
+                color: $bg-color;
+            }
+        }
+    }
+}

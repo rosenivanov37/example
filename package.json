@@ -1,0 +1,29 @@
+{
+  "name": "proekt",
+  "version": "1.0.0",
+  "description": "ddz",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosenivanov37/example.git"
+  },
+  "keywords": [
+    "n"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosenivanov37/example/issues"
+  },
+  "homepage": "https://github.com/rosenivanov37/example#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.1"
+  }
+}
